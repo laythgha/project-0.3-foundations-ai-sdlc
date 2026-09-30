@@ -1,0 +1,76 @@
+Order ID,Date,Customer,SKU,Product,Qty,Unit Price,Discount,Shipping,Status
+W-1001,01/07/2026,Ella R,PL-009,Jute Floor Rug,2,$179.00,,$0.00,Cancelled
+W-1002,03/07/2026,Chloe M,PL-012,Macrame Wall Hanging,3,$75.00,,$0.00,Refunded
+W-1003,04/07/2026,Ruby C,PL-004,Soy Candle - Fig,1,$34.00,,$9.95,Paid
+W-1004,05/07/2026,Nina H,PL-012,Macrame Wall Hanging,3,$75.00,,$0.00,Paid
+W-1005,06/07/2026,Milo F,PL-006,Cotton Cushion Cover,1,$39.00,,$9.95,Paid
+W-1006,07/07/2026,Nina H,PL-008,Stoneware Vase,2,$59.00,$10.00,$0.00,Paid
+W-1007,08/07/2026,Ella R,PL-006,Cotton Cushion Cover,1,$39.00,$10.00,$9.95,Paid
+W-1008,10/07/2026,Ruby C,PL-008,Stoneware Vase,1,$59.00,,$9.95,Paid
+W-1009,12/07/2026,Finn O,PL-008,Stoneware Vase,1,$59.00,,$9.95,Paid
+W-1010,12/07/2026,Aria K,PL-008,Stoneware Vase,3,$59.00,,$0.00,Paid
+W-1011,13/07/2026,Priya V,PL-002,Ceramic Mug Set (4),1,$49.00,$10.00,$9.95,Paid
+W-1012,15/07/2026,Priya V,PL-001,Linen Throw Blanket,2,$89.00,,$0.00,Paid
+W-1013,16/07/2026,Priya V,PL-011,Waffle Bath Towel,2,$42.00,,$9.95,Paid
+W-1014,17/07/2026,Nina H,PL-002,Ceramic Mug Set (4),1,$49.00,,$9.95,Paid
+W-1015,18/07/2026,Chloe M,PL-006,Cotton Cushion Cover,1,$39.00,,$9.95,Paid
+W-1016,20/07/2026,Sami J,PL-001,Linen Throw Blanket,1,$89.00,,$9.95,Paid
+W-1017,22/07/2026,Omar Y,PL-012,Macrame Wall Hanging,1,$75.00,,$9.95,Paid
+W-1018,22/07/2026,Priya V,PL-005,Soy Candle - Sea Salt,3,$34.00,,$0.00,Paid
+W-1018,22/07/2026,Priya V,PL-005,Soy Candle - Sea Salt,3,$34.00,,$0.00,Paid
+W-1019,24/07/2026,Ben T,PL-003,Rattan Lamp Shade,2,$119.00,,$0.00,Paid
+W-1020,26/07/2026,Omar Y,PL-001,Linen Throw Blanket,1,$89.00,,$9.95,Paid
+W-1021,26/07/2026,Priya V,PL-002,Ceramic Mug Set (4),3,$49.00,,$0.00,Paid
+W-1022,28/07/2026,Tara G,PL-001,Linen Throw Blanket,3,$89.00,,$0.00,Paid
+W-1023,29/07/2026,Lena D,PL-008,Stoneware Vase,1,$59.00,,$9.95,Cancelled
+W-1024,30/07/2026,Lena D,PL-004,Soy Candle - Fig,2,$34.00,,$9.95,Paid
+W-1025,01/08/2026,Isla W,PL-001,Linen Throw Blanket,2,$89.00,,$0.00,Paid
+W-1026,02/08/2026,Jack N,PL-008,Stoneware Vase,1,$59.00,,$9.95,Paid
+W-1027,03/08/2026,Lena D,PL-008,Stoneware Vase,2,$59.00,,$0.00,Paid
+W-1028,04/08/2026,Hugo S,PL-009,Jute Floor Rug,3,$179.00,,$0.00,Paid
+W-1029,06/08/2026,Omar Y,PL-008,Stoneware Vase,1,$59.00,$10.00,$9.95,Paid
+W-1030,07/08/2026,Ruby C,PL-002,Ceramic Mug Set (4),2,$49.00,,$9.95,Paid
+W-1031,09/08/2026,Sami J,PL-008,Stoneware Vase,1,$59.00,,$9.95,Cancelled
+,,,,,,,,,
+W-1032,09/08/2026,Isla W,PL-005,Soy Candle - Sea Salt,3,$34.00,$10.00,$0.00,Paid
+W-1033,10/08/2026,Kai B,PL-010,Glass Carafe,2,$45.00,,$9.95,Paid
+W-1034,12/08/2026,Jack N,PL-008,Stoneware Vase,1,$59.00,,$9.95,Paid
+W-1035,13/08/2026,Hugo S,PL-005,Soy Candle - Sea Salt,2,$34.00,,$9.95,Paid
+W-1036,15/08/2026,Isla W,PL-007,Oak Serving Board,3,$69.00,,$0.00,Cancelled
+W-1037,17/08/2026,Kai B,PL-007,Oak Serving Board,1,$69.00,$10.00,$9.95,Paid
+W-1038,17/08/2026,Aria K,PL-006,Cotton Cushion Cover,1,$39.00,,$9.95,Paid
+W-1039,19/08/2026,Aria K,PL-011,Waffle Bath Towel,2,$42.00,,$9.95,Paid
+W-1040,19/08/2026,Lena D,PL-002,Ceramic Mug Set (4),1,$49.00,,$9.95,Paid
+W-1041,22/08/2026,Sami J,PL-003,Rattan Lamp Shade,2,$119.00,,$0.00,Paid
+W-1042,23/08/2026,Chloe M,PL-006,Cotton Cushion Cover,2,$39.00,,$9.95,Paid
+W-1043,24/08/2026,Milo F,PL-005,Soy Candle - Sea Salt,1,$34.00,,$9.95,Paid
+W-1044,24/08/2026,Priya V,PL-006,Cotton Cushion Cover,1,$39.00,,$9.95,Paid
+W-1045,27/08/2026,Dev P,PL-008,Stoneware Vase,1,$59.00,,$9.95,Paid
+W-1045,27/08/2026,Dev P,PL-008,Stoneware Vase,1,$59.00,,$9.95,Paid
+W-1046,27/08/2026,Isla W,PL-006,Cotton Cushion Cover,1,$39.00,,$9.95,Refunded
+W-1047,29/08/2026,Sami J,PL-005,Soy Candle - Sea Salt,1,$34.00,,$9.95,Paid
+W-1048,30/08/2026,Milo F,PL-012,Macrame Wall Hanging,1,$75.00,$10.00,$9.95,Paid
+W-1049,01/09/2026,Hugo S,PL-001,Linen Throw Blanket,1,$89.00,,$9.95,Paid
+W-1050,02/09/2026,Omar Y,PL-002,Ceramic Mug Set (4),1,$49.00,$10.00,$9.95,Paid
+W-1051,02/09/2026,Kai B,PL-009,Jute Floor Rug,1,$179.00,,$0.00,Cancelled
+W-1052,05/09/2026,Chloe M,PL-006,Cotton Cushion Cover,2 ,$39.00,,$9.95,Paid
+W-1053,06/09/2026,Ben T,PL-004,Soy Candle - Fig,3,$34.00,,$0.00,Paid
+W-1054,07/09/2026,Ruby C,PL-009,Jute Floor Rug,1,$179.00,,$0.00,Paid
+W-1055,09/09/2026,Sami J,PL-006,Cotton Cushion Cover,3,$39.00,,$0.00,Paid
+W-1056,10/09/2026,Jack N,PL-011,Waffle Bath Towel,1,$42.00,,$9.95,Paid
+W-1057,10/09/2026,Kai B,PL-011,Waffle Bath Towel,1,$42.00,,$9.95,Paid
+W-1058,12/09/2026,Nina H,PL-007,Oak Serving Board,1,$69.00,,$9.95,Paid
+W-1059,14/09/2026,Isla W,PL-007,Oak Serving Board,2,$69.00,,$0.00,Paid
+W-1060,14/09/2026,Grace L,PL-007,Oak Serving Board,1,$69.00,$10.00,$9.95,Paid
+W-1061,16/09/2026,Nina H,PL-009,Jute Floor Rug,1,$179.00,$10.00,$0.00,Paid
+W-1062,16/09/2026,Chloe M,PL-012,Macrame Wall Hanging,3,$75.00,,$0.00,Paid
+W-1063,18/09/2026,Grace L,PL-004,Soy Candle - Fig,2,$34.00,$10.00,$9.95,Paid
+W-1064,20/09/2026,Quinn A,PL-005,Soy Candle - Sea Salt,2,$34.00,$10.00,$9.95,Refunded
+W-1065,21/09/2026,Sami J,PL-004,Soy Candle - Fig,2,$34.00,,$9.95,Paid
+W-1066,22/09/2026,Jack N,PL-001,Linen Throw Blanket,1,$89.00,,$9.95,Paid
+W-1067,24/09/2026,Grace L,PL-008,Stoneware Vase,2,$59.00,,$0.00,Paid
+W-1068,24/09/2026,Sami J,PL-007,Oak Serving Board,2,$69.00,,$0.00,Paid
+W-1069,25/09/2026,Aria K,PL-010,Glass Carafe,2,$45.00,,$9.95,Paid
+W-1070,27/09/2026,Jack N,PL-004,Soy Candle - Fig,1,$34.00,,$9.95,Paid
+W-1071,29/09/2026,Lena D,PL-004,Soy Candle - Fig,3,$34.00,,$0.00,Paid
+W-1072,29/09/2026,Hugo S,PL-002,Ceramic Mug Set (4),2,$49.00,,$9.95,Paid

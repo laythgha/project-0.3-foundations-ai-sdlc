@@ -1,0 +1,58 @@
+project_id: "0.3"
+title: "Foundations: AI-Driven SDLC"
+version: 1.0.0
+type: build
+tier: junior
+category: Foundations
+rubric_version: v5
+rubric_tags:
+  primary:
+    - 2 SDLC and Engineering Practices
+    - 6 AI Tooling and Workflow
+  reinforces:
+    - 1 Core Programming and Stack Fundamentals
+    - 5 System Design
+    - 10 Independent Operation
+timeline_working_days: 5
+technologies_to_learn:
+  - The Software Development Lifecycle (SDLC), every stage and its steps
+  - AI-first development, stage by stage
+  - Discovery from many sources (call transcripts, emails, messages, spreadsheets)
+  - Requirements and acceptance criteria
+  - Auditing and cleaning messy spreadsheet data
+  - Simple architecture and data modelling
+  - Dashboards and centralised reporting
+  - UI design with Claude Design
+  - Directing a coding agent (Claude Code or equivalent)
+  - AI context management and token use
+  - Testing (unit, integration, UI with Playwright, edge cases, regression, UAT)
+  - Environment variables and keeping secrets out of Git
+  - GitHub Actions (a basic automatic check)
+  - Git and GitHub (template repositories, commits, collaborator access)
+  - Loom screen recording
+certifications_required: []
+certifications_recommended:
+  - Anthropic Academy, Claude Code in Action (free)
+required_artifacts:
+  per_stage:
+    - docs/01-requirements.md
+    - docs/02-plan.md
+    - docs/03-design.md
+    - docs/04-build.md
+    - docs/05-testing.md
+    - docs/06-deployment.md
+    - docs/07-maintenance.md
+  project:
+    - design/ (Claude Design screenshots)
+    - src/ and tests/ (the dashboard and its tests)
+    - .env.example
+    - .github/workflows/ (one automatic check)
+    - CLAUDE.md
+    - docs/ai-pipeline.md
+    - docs/reflection.md
+    - LEARNING_LOG.md
+    - SUBMISSION.md
+    - Loom walkthrough link, 8 minutes or less, covering all seven stages
+scenario: Palmstone Living, reporting dashboard from six Google Sheets exports
+success_criteria: SUCCESS.md
+variants: []
