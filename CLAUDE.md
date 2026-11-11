@@ -1,29 +1,24 @@
 # CLAUDE.md
 
-Your project context file. Your coding agent reads it at the start of every session. Replace everything below with your own content on Day 1, and keep it current. See `guide/04-ai-pipeline.md`.
-
 ## What This Application Is
-A dashboard for a local homewares store, Palmstone Living.
-The dashboard will contain six google sheets exports which have inventory and marketing among other things so Dana and Sam can see their business.
-
-[One or two lines: what it does and for whom]
+A reporting dashboard for Palmstone Living, a small homewares store.
+It combines six Google Sheets exports (website, marketplace and Instagram orders, inventory, marketing spend, returns) so Dana (owner) and Sam (operations) can see the whole business in one place.
 
 ## Stack and How to Run
-Next.js + Typescript and SQLite Recharts
-
-[Language, framework, data store; the commands to run the app and the tests]
+Next.js + TypeScript, SQLite for storage, Recharts for charts.
+Run and test commands: added on Day 3, once the app exists.
 
 ## How I Work With You
-Before writing anything I will give a plan  and strategy and wait for me to approve.
-Do not multitask. Finish a task and move onto the next one.
-Explain everything I ask about and change
-Never add or change without approvla or asking
-[Your rules for the agent, for example: propose a plan before writing code, one task at a time, explain any change I ask about, never add a dependency without asking]
+- Give me a plan and strategy before writing anything, and wait for my approval.
+- One task at a time. Finish it before moving on.
+- Explain anything I ask about, and every change you make.
+- Never add or change anything (including dependencies) without asking.
 
 ## Standards
-app code in src/ anmd tests ion tests/
-[Folder structure, made-up data only, no secrets, tests for every new piece of logic]
+- App code in src/, tests in tests/.
+- Made-up data only: use the files in discovery/. No secrets anywhere.
+- Never show customer names on dashboard screens (Dana shows them to the bank).
+- Every new piece of logic gets a test.
 
 ## Lessons Learned
-
-[Mistakes the agent made that must not repeat]
+(None yet. Added when the agent makes a mistake I have to correct.)
