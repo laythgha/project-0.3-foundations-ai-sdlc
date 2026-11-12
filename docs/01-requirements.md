@@ -78,27 +78,60 @@ Each problem names its evidence, so it can be checked in the sheet.
 
 ## The Problem
 
-[One or two sentences: what is painful today, and for whom]
+Palmstone's sales, stock, ads and returns live in six separately kept Google Sheets, so every Monday Sam spends half a day copying numbers into a summary that never matches and is already out of date. Dana makes decisions too late: in August she paid for a lamp shade ad push while lamp shades were nearly out of stock.
 
 ## Users
 
 | User | What they need from the dashboard |
 |---|---|
-| | |
+| Dana (owner) | The big numbers at a glance: sales and money kept by channel, best and worst products, what is about to run out, whether ads pay for themselves, this week against last. Laptop on Mondays, phone when out. No customer names on screen, because she shows it to the bank and accountant |
+| Sam (operations) | Load the six sheets every Monday quickly, click into any number to see the orders behind it, see returns by product and reason, and see which rows were skipped and why |
+| Riley (marketing, part-time) | Ad spend by channel against the sales it brought in |
 
 ## Must-Haves
 
-1. [What it has to do]
+1. Import the six CSV exports, which Sam uploads every Monday.
+2. Show sales by channel as two numbers: product sales after discount without shipping, and what Palmstone keeps after the marketplace fee.
+3. Show the best and worst products.
+4. Show products at or below their reorder level.
+5. Show ad spend against sales, by channel and by week.
+6. Show returns by product and by reason.
+7. Compare this week with last week, with weeks running Monday to Sunday.
+8. Let Sam click a number to see the orders that make it up.
+9. Show which rows were skipped during import, and why.
+10. Never show customer names.
 
 ## Qualities
 
-[How well it has to do it: speed, devices, privacy, and so on]
+- **Privacy:** no customer names on any screen.
+- **Devices:** works on a laptop; readable on a phone.
+- **Robust import:** a new or moved column must not silently break the numbers, the way Sam's summary tab broke.
+- **Trustworthy:** every total can be traced back to its rows, and skipped rows are shown, never hidden.
+- **Quick:** Monday's update takes minutes, not half a day.
 
 ## Open Questions
 
+Questions marked **Decision needed** have no answer in the sources and are still open.
+
 | Question | Answer or assumption | Source, or "assumption" |
 |---|---|---|
-| | | |
+| What does "sales" mean? | Two numbers: product sales after discount without shipping, and what Palmstone keeps after the marketplace fee (the second matters more) | Follow-up email, point 1 |
+| Which Instagram orders count? | Only paid ones | Follow-up email, point 2 |
+| Do cancelled orders count? | No, never | Follow-up email, point 3 |
+| How should refunds be shown? | Decision needed | Email, point 3: "whatever makes sense, just tell me what you did" |
+| When does a week start? | Monday, ending Sunday | Follow-up email, point 4 |
+| How often is data updated? | Weekly: Sam uploads the sheets every Monday morning | Follow-up email, point 5 |
+| Who uses it? | Dana, Sam and sometimes Riley; Dana shows it to the bank | Follow-up email, point 6; call |
+| How are products matched across sheets? | By the website's product codes (SKUs) | Follow-up email, final paragraph |
+| Why are wall hangings missing from the stock sheet? | Made to order, never held in stock | Warehouse note |
+| What about the bamboo tray? | Discontinued; ignore it | Warehouse note |
+| Can customer names be shown? | No | Call: Dana shows the numbers to the bank |
+| How do Saturday-start ad weeks line up with Monday-start sales weeks? | Decision needed | Audit: every `Week starting` date is a Saturday |
+| How are Instagram dates that could be day-first or month-first read? | Decision needed | Audit: `8/7`, `10/9` and others |
+| What happens to Mia's order with the date `?` | Decision needed | Instagram sheet |
+| What happens to duplicate rows? | Decision needed | Audit: `W-1018`, `W-1045`, Dev's candle |
+| How are returns matched to orders when every order number is wrong? | Decision needed | Audit: returns log |
+| How much can the stock counts be trusted? | Decision needed | Warehouse note: missed weeks, returns not added back |
 
 ## Acceptance Criteria
 
